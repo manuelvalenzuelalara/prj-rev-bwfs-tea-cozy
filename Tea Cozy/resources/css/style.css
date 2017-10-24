@@ -1,0 +1,117 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  display: flex;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 20;
+  align-items: center;
+  justify-content: space-between;
+}
+header img{
+  display: inline-flex;
+  padding-left: 10px;
+  width: auto;
+  height: 50px;
+}
+header nav{
+  margin-right: 10px;
+}
+span a{
+  color: seashell;
+  margin: 7px;
+}
+
+div{
+  display: inline-flex;
+  margin: 69px;
+  flex-wrap: wrap;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: auto;
+  height: 700px;
+  align-content: center;
+}
+div h2{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+}
+div h4{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+}
+article h2{
+    width: 100%;
+}
+article h4{
+  width: 100%;
+}
+article{
+  display: inline-flex;
+  text-align: center;
+  flex-flow: wrap;
+  justify-content: center;
+}
+article img{
+height: 200px;
+width: 300px;
+}
+figure{
+  display: inline-grid;
+  flex-direction: row;
+  justify-content: center;
+}
+figure span{
+  height: 25px;
+  margin-top: 10px;
+}
+section{
+  display: inline-flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 6%;
+}
+section h2{
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+aside{
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+}
+aside h2{
+  display: inline-flex;
+  align-content: center;
+}
+aside span{
+  display: inline-flex;
+  align-content: center;
+  align-items: stretch;
+}
+footer{
+  height: 200px;
+  text-align: center;
+}
+figcaption{
+  margin-left: 20px;
+}
